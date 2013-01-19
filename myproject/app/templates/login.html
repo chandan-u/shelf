@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %} app login  {% endblock %}
+
+{% block content%}
+    <div id="sign_up">
+        <form id="loginForm" method="POST" action="">
+          <fieldset>
+            <legend>LogIn</legend>
+            <div id="username_box">
+                <label for="username">username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div id="passwd_box">
+                <label for="password">password:</label>
+                <input type="password" name="password" id="passwd"/>
+            </div>
+         </fieldset>
+        </form>
+    </div>    
+{% endblock %}
